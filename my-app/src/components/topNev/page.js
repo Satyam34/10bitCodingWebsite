@@ -42,7 +42,6 @@ export default function TopNev() {
             justifyContent="space-around"
             bgcolor="#161439"
             color="#e6eaef"
-            py={1}
             alignItems="center"
         >
             <Stack direction="row" spacing={2}>
