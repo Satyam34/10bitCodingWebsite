@@ -1,6 +1,12 @@
 "use client";
-import { TopNev } from "@/components";
+import { HomeBanner, NavBar, TopNev } from "@/components";
 
 export default function Page() {
-    return <TopNev />;
+    return (
+        <>
+            <TopNev />
+            <NavBar />
+            <HomeBanner />
+        </>
+    );
 }
